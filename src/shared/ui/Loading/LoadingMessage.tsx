@@ -1,9 +1,11 @@
+import styles from './styles.module.css'
+
 const LoadingMessage = () => {
-   return (
-       <div>
-            <p>loading...</p>
-       </div>
-   )
+  return (
+    <div>
+      <p className={styles.message}>loading...</p>
+    </div>
+  )
 }
 
 export default LoadingMessage
